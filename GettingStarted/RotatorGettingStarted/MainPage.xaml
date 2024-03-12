@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="RotatorGettingStarted.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:RotatorGettingStarted"
+    xmlns:syncfusion="clr-namespace:Syncfusion.Maui.Rotator;assembly=Syncfusion.Maui.Rotator">
+
+    <ContentPage.Content>
+        <Grid
+            HeightRequest="300"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            WidthRequest="300">
+            <syncfusion:SfRotator x:Name="rotator" />
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>
